@@ -18,6 +18,12 @@ const router = createRouter({
       path: "/shadcn",
       component: defineAsyncComponent(() => import("@/views/shadcn/index.vue")),
     },
+    {
+      path: "/dnd",
+      component: defineAsyncComponent(
+        () => import("@/views/dnd/SmoothDnd.vue"),
+      ),
+    },
   ],
 });
 

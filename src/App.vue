@@ -5,6 +5,7 @@
         <RouterLink to="/">Go to Home</RouterLink>
         <RouterLink to="/shadcn">Go to Shadcn</RouterLink>
         <RouterLink to="/cesium">Go to Cesium</RouterLink>
+        <RouterLink to="/dnd">Go to Vue3-Smooth-Dnd</RouterLink>
     </nav>
     <main>
         <RouterView />
