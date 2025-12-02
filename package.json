@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/drag-and-drop": "^0.5.3",
     "@vueuse/core": "^14.1.0",
     "cesium": "^1.135.0",
     "class-variance-authority": "^0.7.1",
