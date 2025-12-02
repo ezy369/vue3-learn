@@ -1,8 +1,4 @@
-import {
-  createRouter,
-  createWebHistory,
-  createWebHashHistory,
-} from "vue-router";
+import { createRouter, createWebHistory, createWebHashHistory } from "vue-router";
 import { defineAsyncComponent } from "vue";
 import HomeView from "@/views/home/index.vue";
 
@@ -19,10 +15,12 @@ const router = createRouter({
       component: defineAsyncComponent(() => import("@/views/shadcn/index.vue")),
     },
     {
-      path: "/dnd",
-      component: defineAsyncComponent(
-        () => import("@/views/dnd/SmoothDnd.vue"),
-      ),
+      path: "/smooth-dnd",
+      component: defineAsyncComponent(() => import("@/views/dnd/SmoothDnd.vue")),
+    },
+    {
+      path: "/formkit-dnd",
+      component: defineAsyncComponent(() => import("@/views/dnd/FormkitDnd.vue")),
     },
   ],
 });
